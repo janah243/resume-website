@@ -259,10 +259,48 @@ i {
     border-radius: 10%;
 }
 
-.contactme li:hover:before {
+.contactme li.facebook:hover:before {
     transform: rotate(360deg);
     border-radius: 100%;
+    background: #3b5998;
 }
+
+.contactme li.twitter:hover:before {
+    transform: rotate(360deg);
+    border-radius: 100%;
+    background: #1DA1F2;
+}
+
+.contactme li.instagram:hover:before {
+    transform: rotate(360deg);
+    border-radius: 100%;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%)
+}
+
+.contactme li.github:hover:before {
+    transform: rotate(360deg);
+    border-radius: 100%;
+    background: #000000;
+}
+
+.contactme li.linkedin:hover:before {
+    transform: rotate(360deg);
+    border-radius: 100%;
+    background: #0e76a8;
+}
+
+.contactme li.envelope:hover:before {
+    transform: rotate(360deg);
+    border-radius: 100%;
+    background: linear-gradient(45deg, #5fc9f8, #147efb);
+}
+
+.contactme li.pinterest:hover:before {
+    transform: rotate(360deg);
+    border-radius: 100%;
+    background: #c8232c;
+}
+
 
 .contactme li a span {
     color: #fff;
