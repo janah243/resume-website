@@ -9,7 +9,8 @@ body, html {
 nav {
     margin-top: 200px;
     position: fixed;
-    background-color: #22A39F;
+    background: linear-gradient(45deg, #005351, #22A39F);
+    /* background-color: #22A39F; */
     overflow: hidden;
     height: 300x;
     width: 100px;
@@ -33,7 +34,7 @@ nav a {
 
 
 nav a:hover {
-    background-color: black;
+    background: linear-gradient(45deg, #002e2e, #184e4d);
     color: white;
 }
 
@@ -129,7 +130,7 @@ hr {
     float: left;
 }
 
-img {
+.profile {
     border-radius: 50%;
     border: 5px solid #22A39F;
 }
@@ -227,6 +228,51 @@ i {
 
 .descript {
     margin-top: 10px;
+}
+
+.contactme {
+    place-items: center;
+    text-align: center;
+    list-style: none;
+    padding-right: 50px;
+}
+
+.contactme li {
+    position: relative;
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.contactme li:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    transition: all 0.3s ease-in;
+    background: linear-gradient(45deg, #005351, #22A39F);
+    border-radius: 10%;
+}
+
+.contactme li:hover:before {
+    transform: rotate(360deg);
+    border-radius: 100%;
+}
+
+.contactme li a span {
+    color: #fff;
+    line-height: 70px;
+    font-size: 27px;
+    transition: all 0.3s ease-out;
+}
+
+.contactme li:hover a span {
+    transform: scale(1.2);
 }
 
 footer{
