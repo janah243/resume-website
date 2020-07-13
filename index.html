@@ -1,46 +1,56 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style website janah abu hassan.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
         <title>Janah Abu Hassan</title>
         <div>
-            <nav>
+            <nav class="original-navbar">
                     <a href="#home">Home</a>
                     <a href="#profile">Profile</a>
                     <a href="#resume">Resume</a>
                     <a href="#skills">Skills</a>
                     <a href="#projects">Projects</a>
-                    <a style="padding-bottom: 16px;" href="#contactme">Contact Me</a>
+                    <a href="#contactme">Contact Me</a>
             </nav>
         </div>
     </head>
         <body>
+            <nav class="nav-bar">
+                <ul>
+                    <li><a href="#home"><i class="fa fa-home"></i></a></li>
+                    <li><a href="#profile"><i class="fa fa-user"></i></a></li>
+                    <li><a href="#resume"><i class="fa fa-graduation-cap"></i></a></li>
+                    <li><a href="#skills"><i class="fa fa-cogs"></i></i></a></li>
+                    <li><a href="#projects"><i class="fa fa-lightbulb-o"></i></a></li>
+                    <li><a href="#contactme"><i class="fa fa-phone"></i></a></li>
+                </ul>
+            </nav>
             <div class="parallax" id="home">
-                <ul style="list-style: none; text-align: center; font-size: 50px; font-family: 'Open Sans', sans-serif; color: white;">
-                    <li style="font-weight: bold;">Janah Abu Hassan</li> <hr>
-                    <li style="font-size: 28px;">Interactive Resume</li>
+                <ul style="list-style: none; padding-left: 0; text-align: center; align-items: center; font-size: 2.941em; font-family: 'Open Sans', sans-serif; color: white;">
+                    <li style="font-weight: bold;">Janah Abu Hassan</li> <hr style="width: 73%; border: 0.5px solid lightgray;">
+                    <li style="font-size: 0.8em;">Interactive Resume</li>
                 </ul>
             </div>
-            <!-- style="padding-top: 45px; margin-top: -45px; margin-bottom: -45px; padding-bottom: 45px;" -->
-        <div id="profile" class="sub1">
+        <div id="profile" class="sub1 navbar-header">
             <h2>Profile</h2>
-            <p style="text-align: center; color: #727878; font-size: 30px; margin-top: 10px;">This is some basic information about me</p> <hr>
-            <div class="row" style="padding-left: 50px; padding-right: 50px;">
+            <p style="text-align: center; color: #727878; font-size: 1.3em; margin-top: 10px;">This is some basic information about me</p> <hr class="horizontal-header" style="width: 85%;">
+            <div class="row">
                 <div class="col-1">
-                    <h3 style="text-align: left;">About Me</h3>
+                    <h3 class="headers1">About Me</h3>
                     <p>A hardworking and enthusiastic freshman at Georgia Institute of Technology, offering knowledge in programming in a few
                        languages and able to work independently and collaboratively with teams to achieve goals. Acquired leadership skills through 
                        A-Level degree and school, as well as gained project-based learning skills. Determination and diligence can be proven
                        through the achievement of a black belt in Shotokan karate and dedication can be proven by consistent grades in school.</p>
                 </div>
-                <div style="padding-top: 16px; margin-top: 16px;" class="col-2">
-                    <img class="profile" src="Janah.jpg" height="318px" width="246px"/>
+                <div class="col-2">
+                    <img class="profile" src="Janah.jpg" height="290px" width="246px"/>
                 </div>
                 <div class="col-3">
-                    <h3>Details</h3>
+                    <h3 class="headers1">Details</h3>
                     <p>
                     <strong>Name: </strong> <br>
                     Janah Abu Hassan <br> <br>
@@ -52,16 +62,16 @@
                 </div>
             </div>
         </div> 
-        <div id="resume" class="sub2 brown-background">
+        <div id="resume" class="sub2 brown-background navbar-header">
             <h2>Resume</h2>
-            <p style="text-align: center; color: #727878; font-size: 30px; margin-top: 10px;">This section covers my education, experiences, and awards</p>
-            <hr style="width: 600px;margin-left: 300px;border-right-width: 0px;border-right-style: solid;border-left-width: 0px;border-left-style: solid;">
+            <p style="text-align: center; color: #727878; font-size: 1.3em; margin-top: 10px;">This section covers my education, experiences, and awards</p>
+            <hr class="horizontal-header">
             <div class="txt">
                 <h4>Education</h4>
                 <div class="resume-row">
                     <div class="col-a">
                         <h5>Georgia Tech</h5>
-                        <i style="font-size: 18px;" class="material-icons" class="location">place</i>
+                        <i style="font-size: 1.059em;" class="material-icons" class="location">place</i>
                         <i class="location">Atlanta, Georgia</i>
                         <p>Anticipated May 2024</p>
                     </div>
@@ -71,7 +81,7 @@
                     </div>
                     <div class="col-a">
                         <h5>Oxbridge Tutorial College</h5>
-                        <i style="font-size: 18px;" class="material-icons" class="location">place</i>
+                        <i style="font-size: 1.059em;" class="material-icons" class="location">place</i>
                         <i class="location">Lagos, Nigeria</i>
                         <p>September 2018 - June 2020</p>
                     </div>
@@ -81,7 +91,7 @@
                     </div>
                     <div class="col-a">
                         <h5>Avi-Cenna Int'l School</h5>
-                        <i style="font-size: 18px;" class="material-icons" class="location">place</i>
+                        <i style="font-size: 1.059em;" class="material-icons" class="location">place</i>
                         <i class="location">Lagos, Nigeria</i>
                         <p>September 2005 - June 2018</p>
                     </div>
@@ -90,7 +100,7 @@
                         <p>Acquired high school degree in Avi-Cenna after completing the IGCSE program.</p>
                     </div>
                 </div>
-                <hr style="width: 600px;margin-left: 100px; margin-right: 150px; border-right-width: 0px;border-right-style: solid;border-left-width: 0px;border-left-style: solid;">
+                <hr style="margin: auto; border: 0.5px solid black;">
                 <h4>Activities/Experiences</h4>
                 <div class="resume-row">
                     <div class="col-a">
@@ -100,7 +110,7 @@
                         <h5>Planning of Charity Drive</h5>
                         <p>My friends and I planned a charity drive, which focused on helping the less privileged children in orphanages.
                             The children were entertained for the day and given gifts such as: clothes, toys, books, and stationery.</p>
-                            <i style="font-size: 18px;" class="material-icons" class="location">place</i>
+                            <i style="font-size: 1.059em;" class="material-icons" class="location">place</i>
                         <i class="location">Lagos, Nigeria</i>
                         <p>2018-2019</p>
                     </div>
@@ -111,7 +121,7 @@
                         <h5>Rotary Interact Club</h5>
                         <p>Donated new books on World Book Day, and read along with the students of a public school in the community.
                             We successfully ran a fundraiser to raise the needed money to buy the books and stationery required by this school.</p>
-                            <i style="font-size: 18px;" class="material-icons" class="location">place</i>
+                            <i style="font-size: 1.059em;" class="material-icons" class="location">place</i>
                             <i class="location">Lagos, Nigeria</i>
                             <p>2019</p>
                     </div>
@@ -122,7 +132,7 @@
                         <h5>Student Representative Council Treasurer</h5>
                         <p>Managed the budgeting and kept a ledger of money for school events. In total, I was in charge of about
                             540,000 Nigerian Naira ≈ $1,500.</p>
-                        <i style="font-size: 18px;" class="material-icons" class="location">place</i>
+                        <i style="font-size: 1.059em;" class="material-icons" class="location">place</i>
                         <i class="location">Lagos, Nigeria</i>
                         <p>2019 - 2020</p>
                     </div>
@@ -133,7 +143,7 @@
                         <h5>Robotics Club</h5>
                         <p>Learned how to code in Python and JavaScript, how to use an Arduino and Raspberry Pi, and how to build a
                             mini-robot using household items.</p>
-                        <i style="font-size: 18px;" class="material-icons" class="location">place</i>
+                        <i style="font-size: 1.059em;" class="material-icons" class="location">place</i>
                         <i class="location">Lagos, Nigeria</i>
                         <p>2019 - 2020</p>
                     </div>
@@ -144,17 +154,17 @@
                         <h5>School Prefect</h5>
                         <p>Ensured the students where well behaved and arrived on time in school. Also had numerous duties to
                             maintain behavioural conduct.</p>
-                        <i style="font-size: 18px;" class="material-icons" class="location">place</i>
+                        <i style="font-size: 1.059em;" class="material-icons" class="location">place</i>
                         <i class="location">Lagos, Nigeria</i>
                         <p>2017 - 2018</p>
                     </div>
                 </div>
-                    <hr style="width: 600px;margin-left: 100px;margin-right: 150px; border-right-width: 0px;border-right-style: solid;border-left-width: 0px;border-left-style: solid;">
-                    <h4>Awards/Certificates</h4>
+                <hr style="margin: auto; border: 0.5px solid black;">
+                <h4>Awards/Certificates</h4>
                 <div class="resume-row">
                     <div class="col-a">
                         <h5>National Award</h5>
-                        <i style="font-size: 18px;" class="material-icons" class="location">place</i>
+                        <i style="font-size: 1.059em;" class="material-icons" class="location">place</i>
                         <i class="location">Lagos, Nigeria</i>
                         <p>2020</p>
                     </div>
@@ -165,7 +175,7 @@
                     </div>
                     <div class="col-a">
                         <h5>Local Certificate</h5>
-                        <i style="font-size: 18px;" class="material-icons" class="location">place</i>
+                        <i style="font-size: 1.059em;" class="material-icons" class="location">place</i>
                         <i class="location">Lagos, Nigeria</i>
                         <p>2020</p>
                     </div>
@@ -175,7 +185,7 @@
                     </div>
                     <div class="col-a">
                         <h5>School Award</h5>
-                        <i style="font-size: 18px;" class="material-icons" class="location">place</i>
+                        <i style="font-size: 1.059em;" class="material-icons" class="location">place</i>
                         <i class="location">Lagos, Nigeria</i>
                         <p>2019</p>
                     </div>
@@ -185,7 +195,7 @@
                     </div>
                     <div class="col-a">
                         <h5>National Award</h5>
-                        <i style="font-size: 18px;" class="material-icons" class="location">place</i>
+                        <i style="font-size: 1.059em;" class="material-icons" class="location">place</i>
                         <i class="location">Lagos, Nigeria</i>
                         <p>2019</p>
                     </div>
@@ -196,7 +206,7 @@
                     </div>
                     <div class="col-a">
                         <h5>Certificate</h5>
-                        <i style="font-size: 18px;" class="material-icons" class="location">place</i>
+                        <i style="font-size: 1.059em;" class="material-icons" class="location">place</i>
                         <i class="location">Lagos, Nigeria</i>
                         <p>2019</p>
                     </div>
@@ -206,7 +216,7 @@
                     </div>
                     <div class="col-a">
                         <h5>School Awards</h5>
-                        <i style="font-size: 18px;" class="material-icons" class="location">place</i>
+                        <i style="font-size: 1.059em;" class="material-icons" class="location">place</i>
                         <i class="location">Lagos, Nigeria</i>
                         <p>2018</p>
                     </div>
@@ -217,18 +227,17 @@
                         </p>
                     </div>
                 </div>
-                <hr style="width: 600px;margin-left: 100px;margin-right: 150px; border-right-width: 0px;border-right-style: solid;border-left-width: 0px;border-left-style: solid;">
-                <div style="align-items: center; padding-left: 250px;padding-right: 200px; padding-bottom: 10px;">
-                    <h4 style="display: inline-block; padding-top: 10px; font-size: 25px;">Take a look at my resume</h4>
-                    <a style="display:inline-block; padding-top: 10px; font-size: 25px; text-decoration: underline;" class="location linked" href="Janah Abu Hassan Resume.pdf" target="_blank">here</a>
+                <hr style="margin: auto; border: 0.5px solid black;">
+                <div style="align-items: center; padding-left: 0;padding-right: 0; padding-bottom: 10px;">
+                    <h4 style="display: inline-block; padding-top: 10px; font-size: 1.4em;">Take a look at my resume <a style="color: #22A39F;" href="Janah Abu Hassan Resume.pdf" target="_blank">here</a></h4>
                 </div>
             </div>
             </div>
         </div>
-        <div id="skills" class="sub2">
-            <h2 style="margin-right: 300px; margin-left: 300px; width: 600px;">Skills</h2>
-            <p style="text-align: center; color: #727878; font-size: 30px; margin-top: 10px;">Things I know</p>
-            <hr style="width: 600px;margin-left: 300px;margin-right: 150px; border-right-width: 0px;border-right-style: solid;border-left-width: 0px;border-left-style: solid;">
+        <div id="skills" class="sub2 navbar-header">
+            <h2 style="text-align: center;">Skills</h2>
+            <p style="text-align: center; color: #727878; font-size: 1.3em; margin-top: 10px;">Things I know</p>
+            <hr class="horizontal-header">
             <div class="txt">
                 <h4>Technical Skills</h4>
                 <div class="resume-row">
@@ -243,32 +252,12 @@
                                 <span class="fa fa-star"></span></p>
                         </div>
                         <div class="col-a2">
-                            <h5>Machine Learning</h5>
-                        </div>
-                        <div style="height: auto;" class="col-b2">
-                            <p class="stars"><span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span></p>
-                        </div>
-                        <div class="col-a2">
                             <h5>HTML</h5>
                         </div>
                         <div style="height: auto;" class="col-b2">
                             <p class="stars"><span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span></p>
-                        </div>
-                        <div class="col-a2">
-                            <h5>Adobe Photoshop</h5>
-                        </div>
-                        <div style="height: auto;" class="col-b2">
-                            <p class="stars"><span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
                                 <span class="fa fa-star"></span>
                                 <span class="fa fa-star"></span></p>
                         </div>
@@ -283,16 +272,6 @@
                                 <span class="fa fa-star"></span></p>
                         </div>
                         <div class="col-a2">
-                            <h5>Adobe Illustrator</h5>
-                        </div>
-                        <div style="height: auto;" class="col-b2">
-                            <p class="stars"><span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span></p>
-                        </div>
-                        <div class="col-a2">
                             <h5>JavaScript</h5>
                         </div>
                         <div style="height: auto;" class="col-b2">
@@ -302,6 +281,49 @@
                                 <span class="fa fa-star"></span>
                                 <span class="fa fa-star"></span></p>
                         </div>
+                        <div class="col-a2">
+                            <h5>Django</h5>
+                        </div>
+                        <div style="height: auto;" class="col-b2">
+                            <p class="stars"><span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span></p>
+                        </div>
+                        <div class="col-a2">
+                            <h5>Machine Learning</h5>
+                        </div>
+                        <div style="height: auto;" class="col-b2">
+                            <p class="stars"><span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span></p>
+                        </div>
+                       
+                        <div class="col-a2">
+                            <h5>Adobe Photoshop</h5>
+                        </div>
+                        <div style="height: auto;" class="col-b2">
+                            <p class="stars"><span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span></p>
+                        </div>
+                        
+                        <div class="col-a2">
+                            <h5>Adobe Illustrator</h5>
+                        </div>
+                        <div style="height: auto;" class="col-b2">
+                            <p class="stars"><span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span></p>
+                        </div>
+                        
                             <div class="col-a2">
                                 <h5>Adobe Animate</h5>
                             </div>
@@ -311,20 +333,10 @@
                                     <span class="fa fa-star"></span>
                                     <span class="fa fa-star"></span>
                                     <span class="fa fa-star"></span></p>
-                            </div>
-                            <div class="col-a2">
-                                <h5>Django</h5>
-                            </div>
-                            <div style="height: auto;" class="col-b2">
-                                <p class="stars"><span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span></p>
-                            </div>
+                            </div>     
             </div>
-            <hr style="width: 600px;margin-left: 100px;margin-right: 150px; border-right-width: 0px;border-right-style: solid;border-left-width: 0px;border-left-style: solid;">
-                <h4>Soft Skills</h4>
+            <hr style="margin: auto; border: 0.5px solid black;">
+            <h4>Soft Skills</h4>
                 <div class="resume-row">
                         <div class="col-a2">
                             <h5>Team Player</h5>
@@ -387,9 +399,9 @@
                                 <span class="fa fa-star"></span></p>
                         </div>
                         </div>
-                        <hr style="width: 600px;margin-left: 100px;margin-right: 150px; border-right-width: 0px;border-right-style: solid;border-left-width: 0px;border-left-style: solid;">
-                <h4>Languages</h4>
-                <div class="resume-row">
+                        <hr style="margin: auto; border: 0.5px solid black;">
+                        <h4>Languages</h4>
+                        <div class="resume-row">
                         <div class="col-a2">
                             <h5>English</h5>
                         </div>
@@ -413,10 +425,10 @@
                         </div>
                         </div>
                         </div>
-                        <div id="projects" class="sub2 brown-background">
+                        <div style="padding-bottom: 0; margin-bottom: 0;" id="projects" class="sub2 brown-background navbar-header">
                             <h2>Projects</h2>
-                            <p style="text-align: center; color: #727878; font-size: 30px; margin-top: 10px;">Here are some projects I have done</p>
-                            <hr style="width: 600px;margin-left: 300px;border-right-width: 0px;border-right-style: solid;border-left-width: 0px;border-left-style: solid;">
+                            <p style="text-align: center; color: #727878; font-size: 1.3em; margin-top: 10px;">Here are some projects I have done</p>
+                            <hr class="horizontal-header border: 0.5px solid black;">
                             <div class="txt">
                                 <div class="resume-row">
                                     <div class="col-a">
@@ -425,17 +437,17 @@
                                     <div class="col-b">
                                         <p class="descript">I created a chatbot using python which answers some general questions about my self,
                                             such as: what my name or age is, what my weaknesses and strengths are, etc.</p>
-                                            <i style="font-size: 18px; vertical-align: middle; height: 21px;" class="material-icons" class="location">link</i>
+                                            <i style="font-size: 1.059em; vertical-align: middle; height: 21px;" class="material-icons" class="location">link</i>
                                         <i class="location"><a target="_blank" class="linked" href="https://github.com/janah243/chatbot">https://github.com/janah243/chatbot</a></i>
                                     </div>
                                     <div class="col-a">
-                                        <h5>Django Todolist</h5>
+                                        <h5>Django To-do List</h5>
                                     </div>
                                     <div class="col-b">
-                                        <p  class="descript">I created an interactive todo list using Django. In this website, you can login,
+                                        <p  class="descript">I created an interactive to-do list using Django. In this website, you can login,
                                             logout, register, create and delete lists and items and more. I used the python framework Django to make this website,
                                         which incorporates both Python and HTML. </p>
-                                        <i style="font-size: 18px; vertical-align: middle; height: 21px;" class="material-icons" class="location">link</i>
+                                        <i style="font-size: 1.059em; vertical-align: middle; height: 21px;" class="material-icons" class="location">link</i>
                                         <i class="location"><a target="_blank" class="linked" href="https://github.com/janah243/django-todolist">https://github.com/janah243/django-todolist</a></i>
                                     </div>
                                     <div class="col-a">
@@ -444,16 +456,18 @@
                                     <div class="col-b">
                                         <p  class="descript">I created this website using HTML and CSS only. This website was inspired by another interactive resume
                                             website made by Pascal van Gemert. </p>
-                                        <i style="font-size: 18px; vertical-align: middle; height: 21px;" class="material-icons" class="location">link</i>
+                                        <i style="font-size: 1.059em; vertical-align: middle; height: 21px;" class="material-icons" class="location">link</i>
                                         <i class="location"><a target="_blank" class="linked" href="https://github.com/janah243/resume-website">https://github.com/janah243/resume-website/</a></i>
+                                      <p><i style="font-size: 1.059em; vertical-align: middle; height: 21px;" class="material-icons" class="location">link</i>
+                                        <i class="location"><a target="_blank" class="linked" href="www.janahabuhassan.com">www.janahabuhassan.com</a></i></p>
                                     </div>
                                 </div> 
                             </div>   
                         </div>
-        <div id="contactme" class="sub2">
-            <h2 style="margin-right: 300px; margin-left: 300px; width: 600px;">Contact Me</h2>
-            <p style="text-align: center; color: #727878; font-size: 30px; margin-top: 10px;">How to get in touch with me.</p>
-            <hr style="width: 600px;margin-left: 300px;margin-right: 150px; border-right-width: 0px;border-right-style: solid;border-left-width: 0px;border-left-style: solid;">
+        <div style="padding-top: 45px; margin-top: -45px; margin-bottom: -45px; padding-bottom: 45px;" id="contactme" class="sub2">
+            <h2 style="text-align: center;">Contact Me</h2>
+            <p style="text-align: center; color: #727878; font-size: 1.3em; margin-top: 10px;">How to get in touch with me.</p>
+            <hr class="horizontal-header">
             <ul class="contactme">
                 <li class="facebook"><a target="_blank" href="https://www.facebook.com/janah.abuhassan.5/"><span class="fa fa-facebook-f"></span></a></li>
                 <li class="twitter"><a target="_blank" href="https://www.twitter.com/janah_abu"><span class="fa fa-twitter"></span></a></li>
@@ -463,6 +477,7 @@
                 <li class="envelope"><a target="_blank" href="mailto:janahabuhassan@icloud.com"><span class="fa fa-envelope"></span></a></li>
                 <li class="pinterest"><a target="_blank" href="https://www.pinterest.com/janahabuhassan/"><span class="fa fa-pinterest-p"></span></a></li>                
             </ul>
+            <p class="only-on-phone">View this website on your desktop for a better viewing experience.</p>
         </div>
         </body>
         <footer>
