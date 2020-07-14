@@ -656,13 +656,13 @@ footer{
     vertical-align: middle;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 481px) {
     .only-on-phone {
         display: none;
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 480px) {
     .only-on-phone {
         font-size: 1.176em;
         font-family: 'Open Sans', sans-serif;
