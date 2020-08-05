@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
     height: 100%;
     margin: 0;
     padding: 0;
@@ -8,7 +9,7 @@ body, html {
 
 
 body {
-    -webkit-text-size-adjust:100%;
+    -webkit-text-size-adjust: 100%;
 }
 
 @media (max-width:960px) {
@@ -30,12 +31,11 @@ body {
         margin-bottom: -45px;
         padding-bottom: 45px;
     }
-   
 }
 
-  .headers1 {
-      text-align: left;
-  }
+.headers1 {
+    text-align: left;
+}
 
 @media (max-width:960px) {
     .headers1 {
@@ -43,7 +43,7 @@ body {
     }
 }
 
-@media (max-widthL: 960px) {
+@media (max-width: 960px) {
     img {
         padding-top: 0;
         margin-top: 0;
@@ -55,7 +55,7 @@ body {
     position: fixed;
     background: linear-gradient(45deg, #005351, #22A39F);
     overflow: hidden;
-    height: 277px;
+    height: 276px;
     width: 100px;
     z-index: 9999;
     top: 0;
@@ -64,9 +64,47 @@ body {
 }
 
 @media (min-width: 960px) {
-    .nav-bar {
+    .topnav {
         display: none;
     }
+    .dropdown-content {
+        display: none;
+    }
+}
+
+.topnav {
+    padding-top: 14px;
+    height: 35px;
+    position: fixed;
+    width: 100%;
+    background-color: #303030;
+}
+
+.dropdown-content {
+    margin-top: 13px;
+    background-color: #303030;
+    position: relative;
+}
+
+.dropdown-content a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 17px;
+}
+
+.topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.dropdown-content a:hover {
+    background-color: #22A39F;
+    color: white;
 }
 
 @media (max-width:960px) {
@@ -93,61 +131,20 @@ body {
 }
 
 .original-navbar a {
-   display: inline-block;
-}
-
-.nav-bar {
-    position: fixed;
-    z-index: 9999;
-    height: 45px;
-    width: 100%;
-    background-color: #333;
-}
-
-.nav-bar ul li {
     display: inline-block;
-    list-style-type: none;
-    text-align: center;
-    width: 3em;
 }
 
-.nav-bar ul li:hover {
-    background-color: #22A39F;
-    cursor: pointer;
-}
-
-.nav-bar ul {
-    display: inline-block;
-    margin: 0;
-    line-height: 45px;
-    padding: 0;
-}
-
-.nav-bar a {
-    color: #fff;
-    text-decoration: none;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-}
-
-.nav-bar ul i {
-    font-size: 23px;
-}
 
 @media (max-width: 500px) {
     .parallax {
-        background: #22A39F;
-        background-size: 100% 50%;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('background image (2).jpg');
+        background-size: cover;
         background-position: center center;
         display: flex;
         -webkit-flex-wrap: wrap;
         flex-wrap: wrap;
         width: 100%;
         height: 100%;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
         align-items: center;
         justify-content: center;
     }
@@ -155,7 +152,7 @@ body {
 
 @media (min-width: 500px) {
     .parallax {
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('background image.jpg');
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('background image.jpg');
         background-size: 100% 50%;
         background-position: center center;
         display: flex;
@@ -212,7 +209,7 @@ body {
 }
 
 @media (max-width:960px) {
-    .sub1 h2{
+    .sub1 h2 {
         font-size: 1em;
     }
 }
@@ -281,19 +278,24 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.row p{
+.row p {
     font-size: 1em;
     color: #434242;
     font-family: 'Open Sans', sans-serif;
 }
 
-.col-1, .col-2, .col-3 {
+.col-1,
+.col-2,
+.col-3 {
     width: 33.333333%;
     float: left;
 }
 
 @media (max-width: 1309px) {
-    .col-1, .col-2, .col-3 {
+
+    .col-1,
+    .col-2,
+    .col-3 {
         width: 100%;
         text-align: center;
     }
@@ -321,14 +323,14 @@ body {
 }
 
 @media (min-width: 960px) {
-    #profile .row{
-        padding-left: 7.03%; 
+    #profile .row {
+        padding-left: 7.03%;
         padding-right: 7.03%;
     }
 }
 
 @media (max-width: 960px) {
-    #profile .row{
+    #profile .row {
         width: 85%;
         margin-left: 0;
         margin-right: 0;
@@ -406,14 +408,14 @@ body {
 }
 
 @media (max-width: 1309px) {
-    .col-2{
+    .col-2 {
         margin-top: 0;
         padding-top: 0;
     }
 }
 
 @media (max-width: 960px) {
-    .col-a{
+    .col-a {
         width: 100%;
         font-size: 0.98em;
     }
@@ -482,7 +484,7 @@ body {
 .col-a2 {
     width: 25%;
     float: left;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .col-a2 h5 {
@@ -494,7 +496,8 @@ body {
     color: #22A39F;
 }
 
-.col-a h5, .col-b h5  {
+.col-a h5,
+.col-b h5 {
     margin-top: 10px;
 }
 
@@ -513,18 +516,18 @@ body {
 .col-b2 {
     width: 25%;
     float: left;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 @media (max-width:960px) {
-    .col-b2{
+    .col-b2 {
         width: 40%;
     }
 }
 
 @media (max-width:960px) {
-    .col-a2{
+    .col-a2 {
         width: 60%;
         font-size: 0.98em;
     }
@@ -604,7 +607,7 @@ i {
 .contactme li.instagram:hover:before {
     transform: rotate(360deg);
     border-radius: 100%;
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%)
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%)
 }
 
 
@@ -637,14 +640,14 @@ i {
 
 
 .contactme li a span {
-        color: #fff;
-        line-height: 70px;
-        font-size: 2.059em;
-        transition: all 0.3s ease-out;
-    }
+    color: #fff;
+    line-height: 70px;
+    font-size: 2.059em;
+    transition: all 0.3s ease-out;
+}
 
 
-footer{
+footer {
     background-color: black;
     position: relative;
     left: 0;
@@ -656,21 +659,7 @@ footer{
     vertical-align: middle;
 }
 
-@media (min-width: 481px) {
-    .only-on-phone {
-        display: none;
-    }
-}
-
-@media (max-width: 480px) {
-    .only-on-phone {
-        font-size: 1.176em;
-        font-family: 'Open Sans', sans-serif;
-        text-align: center;
-    }
-}
-
-footer p{
+footer p {
     margin-top: 0px;
     height: 30px;
     padding-top: 35px;
